@@ -17,7 +17,7 @@ const AllRoutes = [
 ]
 
 function Routing() {
-  console.log("PUBLIC_URL", process.env.PUBLIC_URL);
+  
   return (
     (<BrowserRouter basename="https://nettemsarath.github.io/addpush/">
         <Header />
