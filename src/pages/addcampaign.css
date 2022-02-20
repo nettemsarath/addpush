@@ -1,0 +1,58 @@
+.addcampaign {
+  max-width: 600px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+
+  max-width: 400px;
+  margin: auto;
+}
+
+.inputdiv {
+  width: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+
+.inputdiv > span {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-evenly;
+  margin: 15px 0px;
+}
+
+.buttons > button {
+  padding: 8px 25px;
+  border-radius: 10px;
+  border: none;
+}
+
+input {
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  margin: 10px;
+  border: 0.5px solid;
+  border-radius: 10px;
+}

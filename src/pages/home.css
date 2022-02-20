@@ -1,0 +1,30 @@
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 20px;
+}
+
+.card {
+  min-width: 200px;
+  margin: 20px;
+  cursor: pointer;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border-radius: 20px;
+  padding: 25px;
+  border: 1px solid;
+  box-shadow: 5px 3px 5px 3px #888;
+}
+
+.card > button {
+  margin: 15px 0px;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: blue;
+}
