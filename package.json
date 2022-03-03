@@ -1,11 +1,14 @@
 {
   "homepage": "https://nettemsarath.github.io/addpush/",
   "name": "fronrend",
+  "files": ["dist"],
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build:dev": "vite build --mode=development",
+    "build:stag": "vite build --mode=staging",
+    "build:prod": "vite build --mode=production",
     "preview": "vite preview"
   },
   "dependencies": {

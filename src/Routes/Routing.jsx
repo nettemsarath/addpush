@@ -19,7 +19,7 @@ const AllRoutes = [
 function Routing() {
   
   return (
-    (<BrowserRouter basename="https://nettemsarath.github.io/addpush/">
+    (<BrowserRouter basename={import.meta.env.VITE_PUBLIC_URL}>
         <Header />
         <Routes>
           {

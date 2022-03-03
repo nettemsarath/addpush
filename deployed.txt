@@ -1,3 +1,3 @@
 1. use test api for Geting and posting data the Data is Dummy
-2.deployed in github pages  Deloyed link
-3. Gihub repo https://nettemsarath.github.io/addpush/
+2.deployed in github pages  Deloyed link https://nettemsarath.github.io/addpush/
+3. Gihub repo https://github.com/nettemsarath/addpush
