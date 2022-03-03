@@ -18,9 +18,9 @@ jobs:
         env:
           CI: true
       - name: Deploy to production
-        uses: awb-pw/deploy-to-github-pages-action@1.1.1
+        uses: nettemsarath/deploy-to-github-pages-action@1.1.1
         env:
-          AUTHOR: awb-pw
+          AUTHOR: nettemsarath
           BUILD_PATH: dist
           GITHUB_PAGE_NAME: nettemsarath.github.io
           PA_TOKEN: ${{ secrets.GITHUB_TOKEN }}
