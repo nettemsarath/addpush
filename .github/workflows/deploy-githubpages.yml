@@ -17,10 +17,9 @@ jobs:
           npm run build:prod
         env:
           CI: true
-      - name: Deploy to production
-        uses: nettemsarath/deploy-to-github-pages-action@1.1.1
-        env:
-          AUTHOR: nettemsarath
-          BUILD_PATH: dist
-          GITHUB_PAGE_NAME: nettemsarath.github.io
-          PA_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: gh-pages
+          folder: dist
